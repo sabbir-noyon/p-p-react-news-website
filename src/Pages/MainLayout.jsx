@@ -1,16 +1,14 @@
 import { Outlet } from "react-router-dom";
 
 
+
 const MainLayout = () => {
     return (
-        <div>
-            <h1>Hey Julia</h1>
+       <div>
             <Outlet></Outlet>
-            <h1>I Loved You</h1>
-           
             
-        </div>
-    );
+       </div>
+    )     
 };
 
 export default MainLayout;
