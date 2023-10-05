@@ -1,15 +1,17 @@
 import Header from "../Components/Header";
 import LeftAside from "../Components/LeftAside";
+import MarqueeSlider from "../Components/MarqueeSlider";
 import Navbar from "../Components/Navbar";
 import RightAside from "../Components/RightAside";
 
 
 const Home = () => {
     return (
-        <div className="py-8 px-10 lg:py-12 lg:px-24 ">
+        <div className="border py-8 px-10 md:max-w-[1640px] md:mx-auto  md:py-14   ">
             <Header></Header>
+            <MarqueeSlider></MarqueeSlider>
             <Navbar></Navbar>
-            <div className="container grid grid-cols-1 md:grid-cols-4 gap-5">
+            <div className="container grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div className="border">
                     <LeftAside></LeftAside>
                 </div>
@@ -19,9 +21,8 @@ const Home = () => {
                 <div className="border">
                     <RightAside></RightAside>
                 </div>
-                
-
             </div>
+
             
         </div>
     );
