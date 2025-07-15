@@ -1,12 +1,9 @@
-
-
 const LeftAside = () => {
-    return (
-        <div>
-            <h1>I am left aside</h1>
-            
-        </div>
-    );
+	return (
+		<div>
+			<h1>Left Aside</h1>
+		</div>
+	);
 };
 
 export default LeftAside;
